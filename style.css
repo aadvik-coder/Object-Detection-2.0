@@ -1,0 +1,54 @@
+body{
+    background-size: cover;
+    font-family: 'Zen Tokyo Zoo', cursive; 
+    position: center;
+}
+.heading
+{
+font-size: 30px;
+width: 100%;
+margin: 0px; 
+background: linear-gradient(#ff5454 0%, #ff8754 50%, #fcff54 100%);
+
+}
+.heading:hover{
+    background: linear-gradient(#5479ff 0%, #6054ff 50%, #7f54ff 100%);
+}
+#status, #objects_detected {
+    font-size: 18px;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+@keyframes example {
+   0%{
+       box-shadow: 5px 5px 5px #2f6aad;
+       border: 5px solid #348feb;
+
+   }
+   25%{
+    box-shadow: 5px 5px 5px #3b3bad;
+    border: 5px solid #4634eb;
+
+   }
+   50%{
+    box-shadow: 5px 5px 5px #7e3bad;
+    border: 5px solid #9b34eb;
+
+    }
+    75%{
+    box-shadow: 5px 5px 5px #413bad;
+    border: 5px solid #504aff;
+
+    }
+    100%{
+    box-shadow: 5px 5px 5px #3b6dad;
+    border: 5px solid #5c9aff;
+
+    }
+}
